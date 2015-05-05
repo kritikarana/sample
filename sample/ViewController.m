@@ -14,6 +14,32 @@
 
 @implementation ViewController
 
+@synthesize empName = _employeeName;
+@synthesize empArray = employeeArray;
+@synthesize xOffset;
+
++(void) classMethod{
+
+}
+
+-(void) classMethod{
+    
+}
+
+-(void) classMethod:(int)a{
+    
+}
+
+-(void) classMethodWithAvalue:(int)aValue andBvalue:(int)bValue andCvalue:(float)cValue{
+    
+}
+
+//-(void) classMethodwithAvalue:(NSString *)aStrValue andBvalue:(NSArray *)bArrValue andCvalue:(NSDictionary *)cDictValue {
+//    
+//}
+
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -23,5 +49,11 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+@end
+
+@implementation MyClass
+
+
 
 @end
